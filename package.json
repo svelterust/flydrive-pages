@@ -10,18 +10,19 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@sveltejs/kit": "^2.9.1",
     "@sveltejs/adapter-cloudflare": "^4.8.0",
+    "@sveltejs/adapter-cloudflare-workers": "^2.6.0",
+    "@sveltejs/kit": "^2.10.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.1",
-    "svelte": "^5.10.0",
+    "svelte": "^5.10.1",
     "svelte-check": "^4.1.1",
     "typescript": "^5.7.2",
     "vite": "^6.0.3",
-    "wrangler": "^3.94.0"
+    "wrangler": "^3.95.0"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.705.0",
-    "@flystorage/aws-s3": "^0.1.7",
+    "@aws-sdk/client-s3": "^3.709.0",
+    "@flystorage/aws-s3": "^0.1.8",
     "@flystorage/file-storage": "^0.1.7",
     "@flystorage/local-fs": "^0.1.10"
   }
